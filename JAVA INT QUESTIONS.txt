@@ -1,0 +1,102 @@
+1) swap the number
+
+int a = 10;
+int b = 20;
+
+a = a+b;
+b = a-b;
+a = a-b;
+syso("After swaping a:  "+a+  ", b  " +b);
+
+output = a= 20, b= 10
+
+========================================================
+2) find odd/Even number
+
+(i) int number = 9;
+
+if(number % 2 == 0){
+syso(number +  " is an odd number);
+}else{
+syso (number +  " is an Even number);
+}
+
+
+(ii) int[] numbers = {10, 15, 20, 25, 30};  // Array of numbers
+	        
+	        for (int number : numbers) {
+	            if (number % 2 == 0) {
+	                System.out.println(number + " is an Even number.");
+	            } else {
+	                System.out.println(number + " is an Odd number.");
+=================================================================================
+
+3) Find the Largest number
+
+int num1 = 40;
+int num2 = 60;
+int num3 = 80; 
+
+if(num1 >= num2 && num1 >== num3){
+syso(num1 +  " is grater number");
+}else if (num2 >= Num1 && num1 >=num3){
+syso(num2  +  "is grater number");
+}else syso(num3  +  "is grater number);
+
+out put - num3 is grater number. 
+==============================================================
+
+4) Write A to Z
+
+for( char c = 'a'; c<= 'z'; c++) {
+ System.out.print(c);
+ }
+===================================================
+5) Reverse number
+while (number != 0) {
+			
+int digit = number % 10; //Get the last digit
+reversed = reversed * 10 + digit;// Build the reverse number
+number /= 10; // Remove the last digit 
+
+===================================================================
+
+
+What are the exceptions you face in selenium?
+1. NoSuchElementException
+Cause: Occurs when an element cannot be found on the webpage using the provided selector.
+Fix: Verify the locator (e.g., XPath, CSS Selector) or ensure the element is present on the page.
+2. ElementNotVisibleException
+Cause: Happens when an element is present in the DOM but not visible or interactable.
+Fix: Check the visibility of the element or use a WebDriverWait to wait for it to be interactable.
+3. TimeoutException
+Cause: Occurs when a command, such as waiting for an element, exceeds the maximum time limit.
+Fix: Increase the timeout duration or ensure the element/action is available in the expected time frame.
+4. WebDriverException
+Cause: A generic exception indicating an issue with the WebDriver itself (e.g., browser not reachable, session issues).
+Fix: Ensure the WebDriver binary matches the browser version and is configured correctly.
+
+===================================================================
+
+what is your role in your team.
+
+
+What are the testing you do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	    
